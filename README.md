@@ -1,0 +1,3 @@
+# Julia Floating-Point Comparison Bug
+
+This repository demonstrates a common subtle error in Julia related to floating-point number comparisons. The `myfunction` function, while appearing to correctly handle positive and negative inputs, fails to accurately handle comparisons involving floating-point numbers close to zero due to floating-point precision limitations.  The solution shows how to mitigate this issue.
